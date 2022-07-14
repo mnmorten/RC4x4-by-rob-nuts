@@ -3,3 +3,9 @@
 "servo_subscriber = servo_serial_pkg.servo_subscriber:main"
         	
 colcon build --packages-select tutorial_py_pkg --symlink-install
+
+
+sudo apt-get install ros-dashing-rosserial-arduino
+sudo apt-get install ros-dashing-rosserial
+sudo usermod -a -G dialout atlas
+arduino
