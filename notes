@@ -2,3 +2,4 @@
 "esc_subscriber = servo_serial_pkg.esc_subscriber:main",
 "servo_subscriber = servo_serial_pkg.servo_subscriber:main"
         	
+colcon build --packages-select tutorial_py_pkg --symlink-install
