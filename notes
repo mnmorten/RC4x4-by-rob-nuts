@@ -6,3 +6,5 @@ colcon build --packages-select tutorial_py_pkg --symlink-install
 
 sudo usermod -a -G dialout atlas
 arduino
+
+$ export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python3.8/pyrealsense2
