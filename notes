@@ -11,3 +11,5 @@ $ export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python3.8/pyrealsense2
 
 sudo cp config/99-realsense-libusb.rules /etc/udev/rules.d/
 sudo udevadm control --reload-rules && udevadm trigger
+
+rs-enumerate-devices
