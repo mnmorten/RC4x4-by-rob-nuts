@@ -1,0 +1,4 @@
+"camera_publish = servo_serial_pkg.camera_publish:main",
+"esc_subscriber = servo_serial_pkg.esc_subscriber:main",
+"servo_subscriber = servo_serial_pkg.servo_subscriber:main"
+        	
