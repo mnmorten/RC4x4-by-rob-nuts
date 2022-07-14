@@ -34,3 +34,6 @@ rs-enumerate-devices
 
 https://qengineering.eu/install-ubuntu-20.04-on-jetson-nano.html
 nvidia,p3542-0000+p3448-0003nvidia,jetson-nano-2gbnvidia,jetson-nanonvidia,tegra210
+
+
+https://github.com/IntelRealSense/librealsense/blob/master/doc/installation_jetson.md
