@@ -32,3 +32,4 @@ sudo udevadm control --reload-rules && udevadm trigger
 rs-enumerate-devices
 
 
+https://qengineering.eu/install-ubuntu-20.04-on-jetson-nano.html
