@@ -1,7 +1,8 @@
 ÇOKÖNEMLİ
 https://github.com/IntelRealSense/librealsense/issues/6964#issuecomment-707501049
 
-
+environment dosyasının içine: 
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 
 "camera_publish = servo_serial_pkg.camera_publish:main",
 "esc_subscriber = servo_serial_pkg.esc_subscriber:main",
