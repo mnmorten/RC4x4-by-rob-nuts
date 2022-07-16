@@ -43,3 +43,24 @@ nvidia,p3542-0000+p3448-0003nvidia,jetson-nano-2gbnvidia,jetson-nanonvidia,tegra
 
 
 https://github.com/IntelRealSense/librealsense/blob/master/doc/installation_jetson.md
+
+
+[ 43%] Building CXX object wrappers/python/CMakeFiles/pybackend2.dir/pybackend.cpp.o
+cd /home/atlas/Downloads/librealsense-2.50.0/build/wrappers/python && /usr/bin/c++  -DBUILD_EASYLOGGINGPP -DBUILD_SHARED_LIBS -DCHECK_FOR_UPDATES -DCOM_MULTITHREADED -DCURL_STATICLIB -DEASYLOGGINGPP_ASYNC -DELPP_NO_DEFAULT_LOG_FILE -DELPP_THREAD_SAFE -DHWM_OVER_XU -DPYBIND11_COMPILER_TYPE=\"_librs_abi\" -DRS2_USE_CUDA -DRS2_USE_LIBUVC_BACKEND -DSQLITE_HAVE_ISNAN -DUNICODE -Dpybackend2_EXPORTS -I/usr/local/cuda/include -isystem /home/atlas/Downloads/librealsense-2.50.0/build/third-party/pybind11/include -I/home/atlas/Downloads/librealsense-2.50.0/include -I/home/atlas/Downloads/librealsense-2.50.0/wrappers/python/../../src -isystem /usr/include/python3.6m -I/usr/include/libusb-1.0  -pedantic -g -Wno-missing-field-initializers -Wno-switch -Wno-multichar -Wsequence-point -Wformat -Wformat-security -mstrict-align -ftree-vectorize -pthread -O3 -DNDEBUG -fPIC -fvisibility=hidden   -flto -fno-fat-lto-objects -std=gnu++11 -o CMakeFiles/pybackend2.dir/pybackend.cpp.o -c /home/atlas/Downloads/librealsense-2.50.0/wrappers/python/pybackend.cpp
+In file included from /home/atlas/Downloads/librealsense-2.50.0/build/third-party/pybind11/include/pybind11/pytypes.h:12:0,
+                 from /home/atlas/Downloads/librealsense-2.50.0/build/third-party/pybind11/include/pybind11/cast.h:13,
+                 from /home/atlas/Downloads/librealsense-2.50.0/build/third-party/pybind11/include/pybind11/attr.h:13,
+                 from /home/atlas/Downloads/librealsense-2.50.0/build/third-party/pybind11/include/pybind11/pybind11.h:45,
+                 from /home/atlas/Downloads/librealsense-2.50.0/wrappers/python/pybackend.cpp:4:
+/home/atlas/Downloads/librealsense-2.50.0/build/third-party/pybind11/include/pybind11/detail/common.h:124:10: fatal error: Python.h: No such file or directory
+ #include <Python.h>
+          ^~~~~~~~~~
+compilation terminated.
+wrappers/python/CMakeFiles/pybackend2.dir/build.make:62: recipe for target 'wrappers/python/CMakeFiles/pybackend2.dir/pybackend.cpp.o' failed
+make[2]: *** [wrappers/python/CMakeFiles/pybackend2.dir/pybackend.cpp.o] Error 1
+make[2]: Leaving directory '/home/atlas/Downloads/librealsense-2.50.0/build'
+CMakeFiles/Makefile2:269: recipe for target 'wrappers/python/CMakeFiles/pybackend2.dir/all' failed
+make[1]: *** [wrappers/python/CMakeFiles/pybackend2.dir/all] Error 2
+make[1]: Leaving directory '/home/atlas/Downloads/librealsense-2.50.0/build'
+Makefile:129: recipe for target 'all' failed
+make: *** [all] Error 2
